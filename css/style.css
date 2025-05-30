@@ -1,0 +1,31 @@
+ /* Full width header panel */
+ .header-bar {
+  width: 100%;
+  background-color: #2c3e50; /* Dark blue-gray */
+  padding: 0.75rem 1.5rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+  color: white;
+  font-family: 'Georgia', serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  user-select: none;
+}
+
+.header-buttons button {
+  margin-left: 0.75rem;
+  cursor: pointer;
+}
